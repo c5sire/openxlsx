@@ -383,7 +383,7 @@ Workbook$methods(saveWorkbook = function(quiet = TRUE){
         worksheets_rels[[i]] <<- unique(c(worksheets_rels[[i]],
                                           sprintf('<Relationship Id="rIdcomment" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments" Target="../%s"/>', fn)))
         
-        writeCommentXML(comment_list = comments[[i]], file_name = file.path(tmpDir, "xl", fn))
+        #writeCommentXML(comment_list = comments[[i]], file_name = file.path(tmpDir, "xl", fn))
       }
     }
     
