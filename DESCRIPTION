@@ -26,4 +26,5 @@ Repository: CRAN
 VignetteBuilder: knitr
 Suggests:
     knitr,
-    testthat 
+    testthat
+RoxygenNote: 5.0.1
